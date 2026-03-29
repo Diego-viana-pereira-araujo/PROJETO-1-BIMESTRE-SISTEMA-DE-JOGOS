@@ -293,7 +293,7 @@ int main(int argc, char *argv[]) {
             g4 = 1;
 
             //a: atacar\ d: dividir
-            while(g1 && g2 != 0 || g3 && g4 != 0){
+            while(g1!=0 || g2!=0 && g3!=0 || g4!=0 ){
                printf("====TURNO DO JOGADOR 1====\n");
                atitude = 0;
               
